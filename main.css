@@ -1,0 +1,140 @@
+html {
+    font-family: 'Rock Salt', cursive;
+    background: -webkit-radial-gradient(red, yellow, green);
+    background: -webkit-radial-gradient(white, yellow, olive);
+    background: -webkit-radial-gradient(white, olive);
+    background: radial-gradient(white, olive);
+    min-height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+header {
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 0px;
+}
+
+.result  {
+    margin: 0;
+    height: 40px;
+    color: firebrick;
+}
+
+.modal-wrap {
+    position: absolute;
+    left: 0;
+    top:0;
+    background-color: rgba(0, 0, 0, 0.74);
+    width: 100%;
+    height: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.decision {
+    margin: auto;
+    padding: 20px 100px;
+    color: white;
+    background-color: black;
+    font-size: 2em;
+    border-radius: 5px;
+}
+
+.decision span {
+    background-color: olive;
+    padding: 5px 15px;
+    display: inline-block;
+    width: 40px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.decision span:hover {
+    color: black;
+}
+
+.wrap {
+    max-width: 300px;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.wrap span {
+    width: 31%;
+    height: 100px;
+    background: olive;
+    border-top: 4px solid white;
+    border-left: 4px solid white;
+    font-size: 3em;
+    font-weight: 800;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 90px;
+    cursor: pointer;
+}
+
+.wrap span:hover {
+    background: #b7b758;
+}
+
+.wrap span:nth-child(3n) {
+    border-right: 4px solid white;
+}
+
+.wrap span:nth-child(n+7) {
+    border-bottom: 4px solid white;
+}
+
+.wrap span:nth-child(1) {
+    border-top-left-radius: 5px;
+}
+
+.wrap span:nth-child(3) {
+    border-top-right-radius: 5px;
+}
+
+.wrap span:nth-child(7) {
+    border-bottom-left-radius: 5px;
+}
+
+.wrap span:nth-child(9) {
+    border-bottom-right-radius: 5px;
+}
+
+.move {
+    text-align: center;
+    margin-top: 5px;
+    color: firebrick;
+}
+
+footer {
+    margin-top: 30px;
+    text-align: center;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+    font-size: 18px;
+}
+
+a {
+    color:white;
+    text-decoration: none;
+}
+
+.ng-binding.ng-scope.X {
+    color:white;
+}

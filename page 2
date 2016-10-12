@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+</head>
+
+    <header>
+
+        <h1></h1>
+        <link rel="stylesheet" href="main.css">
+        <nav>
+        <ul>
+          <li><a href="bashbord.html"><img src="Home_Logo.jpg" hight="50" width="50"></a></li>
+          <li><a href="bashbordpost.html"><img src="Post_logo.png" hight="50" width="50"></a></li>
+          <li><a href="link"><img src="Microsoft-Upload-Centre-icon.png" hight="50" width="50"></a></li>
+          <li><a href="link"><img src="stat-icon.png" width="50" hight="50"></a></li>
+          <li><a href="link"><img src="400_F_33604433_ZeX7tAoHpnCTgwjKPWzvHs4h1NjChUw6.jpg" width="50" hight="50"></a></li>
+        </ul>
+      </nav>
+    </header>
+    <body>
+      <h1>big cats</h1>
+        <p>this is a test page </p>
+        <img src="cellmaw.jpg" width="50" hight="50">
+        <h2>it's a cat</h2>
+        <p>the big kitty eat all the people <br>
+        cellmaw is a jungle cat-human from another woooooorld </P>
+
+    <footer></footer>
+    </body>
+    </div>
+</html>
